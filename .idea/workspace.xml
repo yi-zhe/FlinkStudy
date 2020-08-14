@@ -61,7 +61,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadKafkaNoKey">
+  <component name="RunManager" selected="Application.ParallelCustomSource">
+    <configuration name="CustomSource" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.CustomSourceStandalone" />
+      <module name="FlinkStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.stream.source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlinkKafkaProducer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.FlinkKafkaProducer" />
       <module name="FlinkStudy" />
@@ -75,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadHDFS" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.ReadHDFS" />
+    <configuration name="ParallelCustomSource" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.ParallelCustomSource" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -114,26 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.WordCount" />
-      <module name="FlinkStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.source.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelCustomSource" />
+        <item itemvalue="Application.CustomSource" />
         <item itemvalue="Application.ReadKafkaNoKey" />
         <item itemvalue="Application.FlinkKafkaProducer" />
         <item itemvalue="Application.ReadKafka" />
-        <item itemvalue="Application.ReadHDFS" />
-        <item itemvalue="Application.WordCount" />
       </list>
     </recent_temporary>
   </component>
