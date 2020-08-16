@@ -65,7 +65,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.SideOutputOperator">
+  <component name="RunManager" selected="Application.Itera">
     <configuration name="CoFlatmap" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.CoFlatmap" />
       <module name="FlinkStudy" />
@@ -92,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlinkKafkaProducer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.FlinkKafkaProducer" />
+    <configuration name="Itera" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.Itera" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.source.*" />
+          <option name="PATTERN" value="com.msb.stream.transformation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Itera" />
         <item itemvalue="Application.SideOutputOperator" />
         <item itemvalue="Application.CoFlatmap" />
         <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.ConnectOperator" />
-        <item itemvalue="Application.FlinkKafkaProducer" />
       </list>
     </recent_temporary>
   </component>
@@ -175,22 +175,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1597567802816" />
-    <state width="1238" height="404" key="GridCell.Tab.0.bottom" timestamp="1597567468201">
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom" timestamp="1597568690385">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="404" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597567468201" />
-    <state width="1238" height="404" key="GridCell.Tab.0.center" timestamp="1597567468200">
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597568690385" />
+    <state width="1238" height="255" key="GridCell.Tab.0.center" timestamp="1597568690381">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="404" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597567468200" />
-    <state width="1238" height="404" key="GridCell.Tab.0.left" timestamp="1597567468200">
+    <state width="1238" height="255" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597568690381" />
+    <state width="1238" height="255" key="GridCell.Tab.0.left" timestamp="1597568690380">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="404" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597567468200" />
-    <state width="1238" height="404" key="GridCell.Tab.0.right" timestamp="1597567468201">
+    <state width="1238" height="255" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597568690380" />
+    <state width="1238" height="255" key="GridCell.Tab.0.right" timestamp="1597568690382">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="404" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597567468201" />
+    <state width="1238" height="255" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597568690382" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1597547189850">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
