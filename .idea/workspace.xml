@@ -47,7 +47,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.MapOperator">
+  <component name="RunManager" selected="Application.UnionOperator">
     <configuration name="CustomSource" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.CustomSourceStandalone" />
       <module name="FlinkStudy" />
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadKafkaNoKey" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.ReadKafkaNoKey" />
+    <configuration name="UnionOperator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.UnionOperator" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.source.*" />
+          <option name="PATTERN" value="com.msb.stream.transformation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnionOperator" />
         <item itemvalue="Application.MapOperator" />
         <item itemvalue="Application.ReadHDFS" />
         <item itemvalue="Application.ParallelCustomSource" />
         <item itemvalue="Application.CustomSource" />
-        <item itemvalue="Application.ReadKafkaNoKey" />
       </list>
     </recent_temporary>
   </component>
@@ -153,22 +153,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1597545967103" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1597546160145">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1597546422667">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597546160145" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1597546160143">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597546422667" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1597546422666">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597546160143" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1597546160141">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597546422666" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1597546422665">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597546160141" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1597546160144">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597546422665" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1597546422667">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597546160144" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597546422667" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1597539201511">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
