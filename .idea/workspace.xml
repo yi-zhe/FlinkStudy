@@ -171,33 +171,37 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1597555363948" />
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1597567802816">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1597569283100">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1597567802816" />
-    <state width="1238" height="255" key="GridCell.Tab.0.bottom" timestamp="1597568690385">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1597569283100" />
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom" timestamp="1597568766601">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597568690385" />
-    <state width="1238" height="255" key="GridCell.Tab.0.center" timestamp="1597568690381">
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597568766601" />
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1597568737910" />
+    <state width="1238" height="255" key="GridCell.Tab.0.center" timestamp="1597568766600">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597568690381" />
-    <state width="1238" height="255" key="GridCell.Tab.0.left" timestamp="1597568690380">
+    <state width="1238" height="255" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597568766600" />
+    <state width="1238" height="255" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1597568737906" />
+    <state width="1238" height="255" key="GridCell.Tab.0.left" timestamp="1597568766599">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597568690380" />
-    <state width="1238" height="255" key="GridCell.Tab.0.right" timestamp="1597568690382">
+    <state width="1238" height="255" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597568766599" />
+    <state width="1238" height="255" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1597568737905" />
+    <state width="1238" height="255" key="GridCell.Tab.0.right" timestamp="1597568766601">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597568690382" />
+    <state width="1238" height="255" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597568766601" />
+    <state width="1238" height="255" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1597568737907" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1597547189850">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1597547189850" />
-    <state x="305" y="124" width="670" height="58" key="search.everywhere.popup" timestamp="1597545922562">
+    <state x="305" y="124" width="670" height="58" key="search.everywhere.popup" timestamp="1597569272092">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="58" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1597545922562" />
+    <state x="305" y="124" width="670" height="58" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1597569272092" />
   </component>
 </project>
