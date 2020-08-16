@@ -10,6 +10,7 @@ object SplitOperator {
     val stream = env.generateSequence(1, 100)
     val splitStream = stream.split(d => {
       d % 2 match {
+        // 实际是给数据打标签, 可以通过select选择
         case 0 => List("first")
         case 1 => List("second")
       }
@@ -17,7 +18,7 @@ object SplitOperator {
 
     // select 算子 根据标签获得流
     splitStream.select("first").print().setParallelism(1)
-//    splitStream.select("second").print()
+    //    splitStream.select("second").print()
 
     env.execute()
   }
