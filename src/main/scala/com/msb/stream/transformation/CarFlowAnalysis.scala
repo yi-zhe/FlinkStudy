@@ -12,6 +12,8 @@ import org.apache.kafka.common.serialization.StringSerializer
 
 /**
  * 从Kafka中消费数据, 统计各个卡口的流量
+ * 从Kafka中消费数据, 统计各个卡口每一分钟的流量
+ * 每...每... 构建组合key去处理
  */
 object CarFlowAnalysis {
   def main(args: Array[String]): Unit = {
@@ -51,6 +53,7 @@ object CarFlowAnalysis {
       val splits = data.split("\t")
       val monitorId = splits(0)
       (monitorId, 1)
+      // 处理每... 每... 构建组合key
     })
       .keyBy(x => x._1)
       .reduce(new ReduceFunction[(String, Int)] {
