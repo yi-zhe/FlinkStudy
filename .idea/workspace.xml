@@ -5,6 +5,24 @@
       <artifact name="FlinkStudy:jar" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -45,22 +63,9 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.UnionOperator">
-    <configuration name="CustomSource" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.CustomSourceStandalone" />
-      <module name="FlinkStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.source.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SplitOperator">
     <configuration name="MapOperator" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.MapOperator" />
       <module name="FlinkStudy" />
@@ -100,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SplitOperator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.SplitOperator" />
+      <module name="FlinkStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.stream.transformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnionOperator" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.UnionOperator" />
       <module name="FlinkStudy" />
@@ -115,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplitOperator" />
         <item itemvalue="Application.UnionOperator" />
         <item itemvalue="Application.MapOperator" />
         <item itemvalue="Application.ReadHDFS" />
         <item itemvalue="Application.ParallelCustomSource" />
-        <item itemvalue="Application.CustomSource" />
       </list>
     </recent_temporary>
   </component>
@@ -153,26 +171,26 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1597545967103" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1597546422667">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1597547404590">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597546422667" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1597546422666">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597547404590" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1597547404588">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597546422666" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1597546422665">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597547404588" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1597547404586">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597546422665" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1597546422667">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597547404586" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1597547404589">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597546422667" />
-    <state x="149" y="39" key="SettingsEditor" timestamp="1597539201511">
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597547404589" />
+    <state x="149" y="39" key="SettingsEditor" timestamp="1597547189850">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1597539201511" />
+    <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1597547189850" />
     <state x="305" y="124" width="670" height="58" key="search.everywhere.popup" timestamp="1597545922562">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
