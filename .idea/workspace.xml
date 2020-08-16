@@ -26,7 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SplitOperator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/SplitOperator.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +65,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.CoFlatmap">
-    <configuration name="CarFlowAnalysis" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.CarFlowAnalysis" />
-      <module name="FlinkStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SideOutputOperator">
     <configuration name="CoFlatmap" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.CoFlatmap" />
       <module name="FlinkStudy" />
@@ -119,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SideOutputOperator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.SideOutputOperator" />
+      <module name="FlinkStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.stream.transformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordCount" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.WordCount" />
       <module name="FlinkStudy" />
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SideOutputOperator" />
         <item itemvalue="Application.CoFlatmap" />
         <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.ConnectOperator" />
         <item itemvalue="Application.FlinkKafkaProducer" />
-        <item itemvalue="Application.CarFlowAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -172,10 +171,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1597555363948" />
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1597566946469">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1597567802816">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1597566946469" />
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1597567802816" />
     <state width="1238" height="404" key="GridCell.Tab.0.bottom" timestamp="1597567468201">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
