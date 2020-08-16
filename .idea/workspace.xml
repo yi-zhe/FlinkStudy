@@ -24,9 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +63,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.Itera">
+  <component name="RunManager" selected="Application.ProcessAPITest">
     <configuration name="CoFlatmap" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.CoFlatmap" />
       <module name="FlinkStudy" />
@@ -79,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectOperator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.ConnectOperator" />
+    <configuration name="Itera" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.Itera" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Itera" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.Itera" />
+    <configuration name="ProcessAPITest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.ProcessAPITest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProcessAPITest" />
         <item itemvalue="Application.Itera" />
         <item itemvalue="Application.SideOutputOperator" />
         <item itemvalue="Application.CoFlatmap" />
         <item itemvalue="Application.WordCount" />
-        <item itemvalue="Application.ConnectOperator" />
       </list>
     </recent_temporary>
   </component>
