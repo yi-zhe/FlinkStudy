@@ -26,13 +26,8 @@
   <component name="ChangeListManager">
     <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream1/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream1/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream2/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream2/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream2/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stream2/4" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +78,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Rescale">
+  <component name="RunManager" selected="Application.BroadcastTest">
+    <configuration name="BroadcastTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.BroadcastTest" />
+      <module name="FlinkStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.stream.transformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Itera" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.Itera" />
       <module name="FlinkStudy" />
@@ -136,26 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SideOutputOperator" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.SideOutputOperator" />
-      <module name="FlinkStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BroadcastTest" />
         <item itemvalue="Application.Rescale" />
         <item itemvalue="Application.PartionerTestScala" />
         <item itemvalue="Application.ProcessAPITest" />
         <item itemvalue="Application.Itera" />
-        <item itemvalue="Application.SideOutputOperator" />
       </list>
     </recent_temporary>
   </component>
