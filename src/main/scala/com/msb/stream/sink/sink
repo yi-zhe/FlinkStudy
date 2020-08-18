@@ -1,0 +1,5 @@
+Redis  内置
+Kafka  内置
+File   本地文件 HDFS2.7以上
+MySQL  自定义sink
+Socket 自定义sink

@@ -78,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CustomTest">
+  <component name="RunManager" selected="Application.RedisSinkTest">
     <configuration name="BroadcastTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.BroadcastTest" />
       <module name="FlinkStudy" />
@@ -131,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rescale" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.Rescale" />
+    <configuration name="RedisSinkTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.RedisSinkTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
+          <option name="PATTERN" value="com.msb.stream.sink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RedisSinkTest" />
         <item itemvalue="Application.CustomTest" />
         <item itemvalue="Application.GlobalTest" />
         <item itemvalue="Application.ForwardTest" />
         <item itemvalue="Application.BroadcastTest" />
-        <item itemvalue="Application.Rescale" />
       </list>
     </recent_temporary>
   </component>
