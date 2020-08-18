@@ -26,7 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/BroadcastTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/transformation/BroadcastTest.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForwardTest">
+  <component name="RunManager" selected="Application.GlobalTest">
     <configuration name="BroadcastTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.BroadcastTest" />
       <module name="FlinkStudy" />
@@ -106,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartionerTestScala" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.PartionerTestScala" />
+    <configuration name="GlobalTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.GlobalTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcessAPITest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.ProcessAPITest" />
+    <configuration name="PartionerTestScala" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.PartionerTestScala" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GlobalTest" />
         <item itemvalue="Application.ForwardTest" />
         <item itemvalue="Application.BroadcastTest" />
         <item itemvalue="Application.Rescale" />
         <item itemvalue="Application.PartionerTestScala" />
-        <item itemvalue="Application.ProcessAPITest" />
       </list>
     </recent_temporary>
   </component>
