@@ -78,9 +78,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GlobalTest">
+  <component name="RunManager" selected="Application.CustomTest">
     <configuration name="BroadcastTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.BroadcastTest" />
+      <module name="FlinkStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.stream.transformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.CustomTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -118,19 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartionerTestScala" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.PartionerTestScala" />
-      <module name="FlinkStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Rescale" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.Rescale" />
       <module name="FlinkStudy" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomTest" />
         <item itemvalue="Application.GlobalTest" />
         <item itemvalue="Application.ForwardTest" />
         <item itemvalue="Application.BroadcastTest" />
         <item itemvalue="Application.Rescale" />
-        <item itemvalue="Application.PartionerTestScala" />
       </list>
     </recent_temporary>
   </component>
