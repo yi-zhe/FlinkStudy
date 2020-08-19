@@ -44,6 +44,8 @@ object MySQLSinkTest {
         var updatePst: PreparedStatement = _
         var insertPst: PreparedStatement = _
 
+        // 生产环境可以做一个集合, 达到一定的量之后, 才触发MySQL更新
+
         override def open(parameters: Configuration): Unit = {
           conn = DriverManager.getConnection("jdbc://mysql://192.168.101.199:3306/test", "root", "123124")
           updatePst = conn.prepareStatement("UPDATE wc SET count = ? WHERE word = ?")
