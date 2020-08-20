@@ -1,12 +1,10 @@
 package com.msb.stream.sink
 
 import java.sql.{Connection, DriverManager, PreparedStatement}
-import java.util.Properties
 
 import org.apache.flink.configuration.Configuration
 import org.apache.flink.streaming.api.functions.sink.{RichSinkFunction, SinkFunction}
-import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
-import org.apache.flink.streaming.api.scala._
+import org.apache.flink.streaming.api.scala.{StreamExecutionEnvironment, _}
 
 import scala.collection.mutable.ListBuffer
 
@@ -24,9 +22,6 @@ object MySQLSinkTest {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     val stream = env.socketTextStream("node01", 8888)
-
-    val props = new Properties()
-    props.setProperty("bootstrap.servers", "node01:9092,node02:9092,node03:9092")
 
     stream.flatMap(line => {
       val rest = new ListBuffer[(String, Int)]
@@ -47,7 +42,7 @@ object MySQLSinkTest {
         // 生产环境可以做一个集合, 达到一定的量之后, 才触发MySQL更新
 
         override def open(parameters: Configuration): Unit = {
-          conn = DriverManager.getConnection("jdbc://mysql://192.168.101.199:3306/test", "root", "123124")
+          conn = DriverManager.getConnection("jdbc:mysql://192.168.101.199:3306/test", "root", "123124")
           updatePst = conn.prepareStatement("UPDATE wc SET count = ? WHERE word = ?")
           insertPst = conn.prepareStatement("INSERT INTO wc VALUES(?,?)")
         }

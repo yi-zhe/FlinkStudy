@@ -25,6 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQLSinkTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQLSinkTest.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,22 +79,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KafkaSinkTest">
+  <component name="RunManager" selected="Application.MySQLSinkTest">
     <configuration name="CustomTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.CustomTest" />
-      <module name="FlinkStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForwardTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.ForwardTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -131,6 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MySQLSinkTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.MySQLSinkTest" />
+      <module name="FlinkStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.stream.sink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisSinkTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.RedisSinkTest" />
       <module name="FlinkStudy" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MySQLSinkTest" />
         <item itemvalue="Application.KafkaSinkTest" />
         <item itemvalue="Application.RedisSinkTest" />
         <item itemvalue="Application.CustomTest" />
         <item itemvalue="Application.GlobalTest" />
-        <item itemvalue="Application.ForwardTest" />
       </list>
     </recent_temporary>
   </component>
