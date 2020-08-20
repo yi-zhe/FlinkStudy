@@ -25,8 +25,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_50_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_tests_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop2_compat_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop_compat_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_prefix_tree_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_procedure_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_server_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQLSinkTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/msb/stream/sink/MySQLSinkTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlinkStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FlinkStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +84,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.msb.stream.sink" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -79,13 +101,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MySQLSinkTest">
-    <configuration name="CustomTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.CustomTest" />
+  <component name="RunManager" selected="Application.FlinkKafkaProducer">
+    <configuration name="FlinkKafkaProducer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.source.FlinkKafkaProducer" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
+          <option name="PATTERN" value="com.msb.stream.source.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlobalTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.transformation.GlobalTest" />
+    <configuration name="HBaseSinkTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.HBaseSinkTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.transformation.*" />
+          <option name="PATTERN" value="com.msb.stream.sink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlinkKafkaProducer" />
+        <item itemvalue="Application.HBaseSinkTest" />
         <item itemvalue="Application.MySQLSinkTest" />
         <item itemvalue="Application.KafkaSinkTest" />
         <item itemvalue="Application.RedisSinkTest" />
-        <item itemvalue="Application.CustomTest" />
-        <item itemvalue="Application.GlobalTest" />
       </list>
     </recent_temporary>
   </component>
