@@ -24,7 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="" />
+    <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValueStateTest">
+  <component name="RunManager" selected="Application.FlinkKafkaProducer">
     <configuration name="FileSinkTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.FileSinkTest" />
       <module name="FlinkStudy" />
@@ -121,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySQLSinkTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.MySQLSinkTest" />
+    <configuration name="ListStateTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.ListStateTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.sink.*" />
+          <option name="PATTERN" value="com.msb.stream.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlinkKafkaProducer" />
+        <item itemvalue="Application.ListStateTest" />
         <item itemvalue="Application.ValueStateTest" />
         <item itemvalue="Application.FileSinkTest" />
-        <item itemvalue="Application.FlinkKafkaProducer" />
         <item itemvalue="Application.HBaseSinkTest" />
-        <item itemvalue="Application.MySQLSinkTest" />
       </list>
     </recent_temporary>
   </component>
