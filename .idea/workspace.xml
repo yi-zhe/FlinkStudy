@@ -40,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Object" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -83,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlinkKafkaProducer">
+  <component name="RunManager" selected="Application.MapStateTest">
     <configuration name="FileSinkTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.FileSinkTest" />
       <module name="FlinkStudy" />
@@ -110,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HBaseSinkTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.HBaseSinkTest" />
+    <configuration name="ListStateTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.ListStateTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.sink.*" />
+          <option name="PATTERN" value="com.msb.stream.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListStateTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.ListStateTest" />
+    <configuration name="MapStateTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.MapStateTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapStateTest" />
         <item itemvalue="Application.FlinkKafkaProducer" />
         <item itemvalue="Application.ListStateTest" />
         <item itemvalue="Application.ValueStateTest" />
         <item itemvalue="Application.FileSinkTest" />
-        <item itemvalue="Application.HBaseSinkTest" />
       </list>
     </recent_temporary>
   </component>
