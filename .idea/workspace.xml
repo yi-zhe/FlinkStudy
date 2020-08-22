@@ -69,6 +69,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.msb.stream.state" />
       <recent name="com.msb.stream.sink" />
     </key>
   </component>
@@ -84,13 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapStateTest">
-    <configuration name="FileSinkTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.sink.FileSinkTest" />
+  <component name="RunManager" selected="Application.AggregateStateTest">
+    <configuration name="AggregateStateTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.AggregateStateTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.sink.*" />
+          <option name="PATTERN" value="com.msb.stream.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AggregateStateTest" />
         <item itemvalue="Application.MapStateTest" />
         <item itemvalue="Application.FlinkKafkaProducer" />
         <item itemvalue="Application.ListStateTest" />
         <item itemvalue="Application.ValueStateTest" />
-        <item itemvalue="Application.FileSinkTest" />
       </list>
     </recent_temporary>
   </component>
