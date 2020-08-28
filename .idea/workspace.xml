@@ -85,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AggregateStateTest">
+  <component name="RunManager" selected="Application.TublingTimeWindowKeyedStream">
     <configuration name="AggregateStateTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.AggregateStateTest" />
       <module name="FlinkStudy" />
@@ -138,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValueStateTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.ValueStateTest" />
+    <configuration name="TublingTimeWindowKeyedStream" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.window.TublingTimeWindowKeyedStream" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.state.*" />
+          <option name="PATTERN" value="com.msb.stream.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TublingTimeWindowKeyedStream" />
         <item itemvalue="Application.AggregateStateTest" />
         <item itemvalue="Application.MapStateTest" />
         <item itemvalue="Application.FlinkKafkaProducer" />
         <item itemvalue="Application.ListStateTest" />
-        <item itemvalue="Application.ValueStateTest" />
       </list>
     </recent_temporary>
   </component>
