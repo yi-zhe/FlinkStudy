@@ -72,7 +72,7 @@
       <recent name="com.msb.stream.sink" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SlidingTimeWindowKeyedStream">
+  <component name="RunManager" selected="Application.TublingCountWindowKeyedStream">
     <configuration name="AggregateStateTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.AggregateStateTest" />
       <module name="FlinkStudy" />
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapStateTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.MapStateTest" />
+    <configuration name="SlidingTimeWindowKeyedStream" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.window.SlidingTimeWindowKeyedStream" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.state.*" />
+          <option name="PATTERN" value="com.msb.stream.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingTimeWindowKeyedStream" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.window.SlidingTimeWindowKeyedStream" />
+    <configuration name="TublingCountWindowKeyedStream" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.window.TublingCountWindowKeyedStream" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TublingCountWindowKeyedStream" />
         <item itemvalue="Application.SlidingTimeWindowKeyedStream" />
         <item itemvalue="Application.FlinkKafkaProducer" />
         <item itemvalue="Application.TublingTimeWindowKeyedStream" />
         <item itemvalue="Application.AggregateStateTest" />
-        <item itemvalue="Application.MapStateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,25 +182,25 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1598703170267" />
-    <state width="1238" height="255" key="GridCell.Tab.0.bottom" timestamp="1598704484765">
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom" timestamp="1598705806252">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598704484765" />
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598705806252" />
     <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1598704029714" />
-    <state width="1238" height="255" key="GridCell.Tab.0.center" timestamp="1598704484763">
+    <state width="1238" height="255" key="GridCell.Tab.0.center" timestamp="1598705806249">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598704484763" />
+    <state width="1238" height="255" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598705806249" />
     <state width="1238" height="255" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1598704029710" />
-    <state width="1238" height="255" key="GridCell.Tab.0.left" timestamp="1598704484762">
+    <state width="1238" height="255" key="GridCell.Tab.0.left" timestamp="1598705806248">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598704484762" />
+    <state width="1238" height="255" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598705806248" />
     <state width="1238" height="255" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1598704029709" />
-    <state width="1238" height="255" key="GridCell.Tab.0.right" timestamp="1598704484764">
+    <state width="1238" height="255" key="GridCell.Tab.0.right" timestamp="1598705806251">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598704484764" />
+    <state width="1238" height="255" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598705806251" />
     <state width="1238" height="255" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1598704029711" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1597547189850">
       <screen x="0" y="0" width="1280" height="800" />
