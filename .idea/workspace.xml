@@ -27,7 +27,6 @@
     <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,19 +72,7 @@
       <recent name="com.msb.stream.sink" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.TublingTimeWindowKeyedStream">
+  <component name="RunManager" selected="Application.SlidingTimeWindowKeyedStream">
     <configuration name="AggregateStateTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.AggregateStateTest" />
       <module name="FlinkStudy" />
@@ -112,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListStateTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.ListStateTest" />
+    <configuration name="MapStateTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.MapStateTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -125,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapStateTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.state.MapStateTest" />
+    <configuration name="SlidingTimeWindowKeyedStream" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.window.SlidingTimeWindowKeyedStream" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.stream.state.*" />
+          <option name="PATTERN" value="com.msb.stream.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SlidingTimeWindowKeyedStream" />
+        <item itemvalue="Application.FlinkKafkaProducer" />
         <item itemvalue="Application.TublingTimeWindowKeyedStream" />
         <item itemvalue="Application.AggregateStateTest" />
         <item itemvalue="Application.MapStateTest" />
-        <item itemvalue="Application.FlinkKafkaProducer" />
-        <item itemvalue="Application.ListStateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,43 +166,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1597555363948">
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1598702800902">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1597555363948" />
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1597569283100">
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1598702800902" />
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1598703170267">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1597569283100" />
-    <state width="1238" height="255" key="GridCell.Tab.0.bottom" timestamp="1597568766601">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1598703170267" />
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom" timestamp="1598704484765">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597568766601" />
-    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1597568737910" />
-    <state width="1238" height="255" key="GridCell.Tab.0.center" timestamp="1597568766600">
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598704484765" />
+    <state width="1238" height="255" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1598704029714" />
+    <state width="1238" height="255" key="GridCell.Tab.0.center" timestamp="1598704484763">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597568766600" />
-    <state width="1238" height="255" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1597568737906" />
-    <state width="1238" height="255" key="GridCell.Tab.0.left" timestamp="1597568766599">
+    <state width="1238" height="255" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598704484763" />
+    <state width="1238" height="255" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1598704029710" />
+    <state width="1238" height="255" key="GridCell.Tab.0.left" timestamp="1598704484762">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597568766599" />
-    <state width="1238" height="255" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1597568737905" />
-    <state width="1238" height="255" key="GridCell.Tab.0.right" timestamp="1597568766601">
+    <state width="1238" height="255" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598704484762" />
+    <state width="1238" height="255" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1598704029709" />
+    <state width="1238" height="255" key="GridCell.Tab.0.right" timestamp="1598704484764">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="255" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597568766601" />
-    <state width="1238" height="255" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1597568737907" />
+    <state width="1238" height="255" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598704484764" />
+    <state width="1238" height="255" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1598704029711" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1597547189850">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
