@@ -10,7 +10,7 @@ import org.apache.flink.util.Collector
 
 // 1. 每隔10秒计算最近N秒数据的wordcount
 // 2. 将计算结果写入MySQL
-object TublingTimeWindowKeyedStream {
+object TumblingTimeWindowKeyedStream {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     env.setParallelism(1)
