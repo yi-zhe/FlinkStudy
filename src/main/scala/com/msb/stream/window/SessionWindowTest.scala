@@ -11,6 +11,7 @@ object SessionWindowTest {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     val stream = env.socketTextStream("node01", 8888)
+    // Session生命周期10s 如果窗口中连续10s都没有数据进入 窗口就会滑动(触发计算)
     stream.windowAll(ProcessingTimeSessionWindows.withGap(Time.seconds(10)))
       .process(new ProcessAllWindowFunction[String, String, TimeWindow] {
         override def process(context: Context, elements: Iterable[String], out: Collector[String]): Unit = {
