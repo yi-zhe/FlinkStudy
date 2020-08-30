@@ -19,7 +19,7 @@ object EventTimeWordCount {
       splits(0).toLong
     })
 
-    stream.flatMap(_.split(" "))
+    stream.flatMap(_.split(" ").tail)
       .map((_, 1))
       .keyBy(_._1)
       // 区间左闭右开[start, end)
