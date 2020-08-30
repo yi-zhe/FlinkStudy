@@ -1,6 +1,7 @@
 package com.msb.stream.window
 
 import org.apache.flink.api.common.functions.ReduceFunction
+import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 import org.apache.flink.streaming.api.scala._
 import org.apache.flink.streaming.api.scala.function.WindowFunction
@@ -11,13 +12,14 @@ import org.apache.flink.util.Collector
 object EventTimeWordCount {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
+    env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
     env.setParallelism(1)
     // 10000 hello spark
     val stream = env.socketTextStream("node01", 8888)
-    stream.assignAscendingTimestamps(data => {
-      val splits = data.split(" ")
-      splits(0).toLong
-    })
+      .assignAscendingTimestamps(data => {
+        val splits = data.split(" ")
+        splits(0).toLong
+      })
 
     stream.flatMap(_.split(" ").tail)
       .map((_, 1))
