@@ -12,6 +12,9 @@ object SessionWindowTest {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     val stream = env.socketTextStream("node01", 8888)
     // Session生命周期10s 如果窗口中连续10s都没有数据进入 窗口就会滑动(触发计算)
+    // EventTime 是事件时间 时间发生的时间
+    // ProcessingTime是处理的时间
+    // Ingesting time 摄取时间 元素进入flink source的时间
     stream.windowAll(ProcessingTimeSessionWindows.withGap(Time.seconds(10)))
       .process(new ProcessAllWindowFunction[String, String, TimeWindow] {
         override def process(context: Context, elements: Iterable[String], out: Collector[String]): Unit = {
