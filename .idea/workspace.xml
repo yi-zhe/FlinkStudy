@@ -24,9 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="51ba6260-a65f-4910-8272-dda2d50b62a8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +70,7 @@
       <recent name="com.msb.stream.sink" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlinkKafkaProducer">
+  <component name="RunManager" selected="Application.SessionWindowTest">
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.stream.window.Demo01" />
       <module name="FlinkStudy" />
@@ -99,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingTimeWindowKeyedStream" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.stream.window.SlidingTimeWindowKeyedStream" />
+    <configuration name="SessionWindowTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.stream.window.SessionWindowTest" />
       <module name="FlinkStudy" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SessionWindowTest" />
         <item itemvalue="Application.FlinkKafkaProducer" />
         <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.TublingCountWindowNoKeyedStream" />
         <item itemvalue="Application.TublingCountWindowKeyedStream" />
-        <item itemvalue="Application.SlidingTimeWindowKeyedStream" />
       </list>
     </recent_temporary>
   </component>
@@ -178,29 +176,29 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1598745524749" />
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1598745995362">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1598747355928">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1598745995362" />
-    <state width="1238" height="254" key="GridCell.Tab.0.bottom" timestamp="1598745776235">
+    <state x="453" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1598747355928" />
+    <state width="1238" height="254" key="GridCell.Tab.0.bottom" timestamp="1598746391519">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598745776235" />
+    <state width="1238" height="254" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598746391519" />
     <state width="1238" height="237" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1598710104584" />
-    <state width="1238" height="254" key="GridCell.Tab.0.center" timestamp="1598745776233">
+    <state width="1238" height="254" key="GridCell.Tab.0.center" timestamp="1598746391518">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598745776233" />
+    <state width="1238" height="254" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598746391518" />
     <state width="1238" height="237" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1598710104583" />
-    <state width="1238" height="254" key="GridCell.Tab.0.left" timestamp="1598745776232">
+    <state width="1238" height="254" key="GridCell.Tab.0.left" timestamp="1598746391517">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598745776232" />
+    <state width="1238" height="254" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598746391517" />
     <state width="1238" height="237" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1598710104583" />
-    <state width="1238" height="254" key="GridCell.Tab.0.right" timestamp="1598745776234">
+    <state width="1238" height="254" key="GridCell.Tab.0.right" timestamp="1598746391518">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598745776234" />
+    <state width="1238" height="254" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598746391518" />
     <state width="1238" height="237" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1598710104584" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1597547189850">
       <screen x="0" y="0" width="1280" height="800" />
