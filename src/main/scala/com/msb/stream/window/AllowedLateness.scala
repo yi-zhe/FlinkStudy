@@ -43,3 +43,10 @@ object AllowedLateness {
     env.execute()
   }
 }
+
+// 1. AllowedLateness(3s) + watermark(2s) = watermark(5s)是错误的
+// 不够实时
+// 但使用AllowedLateness数据冗余比较大, 会影响Flink的吞吐量
+// 如果频繁的触发AllowedLateness机制, 那么有必要将watermark设置大一些
+// 2. AllowedLateness(3s) + watermark(2s) = watermark(5s) + slide(2s) 是错误的
+// 不够实时
