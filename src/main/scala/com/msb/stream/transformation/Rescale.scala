@@ -4,6 +4,7 @@ import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 import org.apache.flink.streaming.api.scala._
 
 // 减少分区 防止发生大量网络传输
+// 只会看到自己本机的下游算子, 进行rebalance分配
 object Rescale {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
